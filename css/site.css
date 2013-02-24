@@ -30,24 +30,12 @@ header {
   margin: auto;
 }
 
-#h > .r {
-  line-height: 48px;
-}
-
-#h > .r .link:hover {
-  color: #fff;
-}
-
 #h > .l {
   margin-top: 4px;
 }
 
-.l, .left {
-  float: left;
-}
-
-.r, .right {
-  float: right;
+#h > .r {
+  line-height: 48px;
 }
 
 #h > .r .link {
@@ -58,13 +46,30 @@ header {
   font-family: 'ProximaNova-Bold';
 }
 
+#h > .r .link:hover {
+  color: #fff;
+  -webkit-transition:color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  -o-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+}
+
+.l, .left {
+  float: left;
+}
+
+.r, .right {
+  float: right;
+}
+
+
 .clearfix {
   display: block;
 }
 
-.login {
+.contact {
   text-align: center;
-  background-color: rgba(255,255,255,0.3);
+  background-color: rgba(236, 112, 112, 0.34);
   color: #fff;
   padding: 8px 15px 6px 12px;
   width: 54px;
@@ -79,9 +84,13 @@ header {
   font-size: 16px;
 }
 
-.login:hover {
+.contact:hover {
   color: #fff;
-  background-color: rgba(255,255,255,0.4);
+  background-color: rgba(236, 112, 112, 0.5);
+  -webkit-transition: background-color 0.2s linear;
+  -moz-transition: background-color 0.2s linear;
+  -o-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
 }
 
 .button {
@@ -90,6 +99,29 @@ header {
   -webkit-border-radius: 15px;
   border-radius: 15px;
 }
+
+.jumbotron {
+  /*content: '';
+  display: block;
+  position: relative;*/
+  background: url('../img/bokeh1.jpg');
+  opacity: .6;
+  padding: 180px 0 140px 0;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-family: ProximaNova-Bold;
+  font-weight: normal;
+  font-size: 50px;
+}
+
+.jumbotron p {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
 .proxima-bold {
   font-family: 'ProximaNova-Bold';
   font-weight: normal;
