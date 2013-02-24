@@ -16,16 +16,17 @@ header {
 
 .ox-ad-logo {
   display: inline-block;
-  width: 152px;
+  width: 42px;
   height: 42px;
   background: url('../img/ox_ad_logo.png') no-repeat transparent;
+  background-size: 100%;
 }
 
 #head {
   padding: 10px 0px;
 }
 
-#head, #f, .wrapped-content {
+#head, .wrapped-content {
   width: 960px;
   margin: auto;
 }
@@ -48,10 +49,10 @@ header {
 
 #head > .r .link:hover {
   color: #fff;
-  -webkit-transition:color 0.2s linear;
-  -moz-transition: color 0.2s linear;
-  -o-transition: color 0.2s linear;
-  transition: color 0.2s linear;
+  -webkit-transition:color 0.3s linear;
+  -moz-transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;
+  transition: color 0.3s linear;
 }
 
 .l, .left {
@@ -61,7 +62,6 @@ header {
 .r, .right {
   float: right;
 }
-
 
 .clearfix {
   display: block;
@@ -87,10 +87,10 @@ header {
 .contact:hover {
   color: #fff;
   background-color: rgba(236, 112, 112, 0.5);
-  -webkit-transition: background-color 0.2s linear;
-  -moz-transition: background-color 0.2s linear;
-  -o-transition: background-color 0.2s linear;
-  transition: background-color 0.2s linear;
+  -webkit-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -o-transition: background-color 0.3s linear;
+  transition: background-color 0.3s linear;
 }
 
 .button {
@@ -106,20 +106,20 @@ header {
   position: relative;*/
   background: url('../img/bokeh1.jpg');
   opacity: .6;
-  padding: 180px 0 140px 0;
+  padding: 190px 0 140px 0;
   text-align: center;
 }
 
 .title h1 {
   font-family: ProximaNova-Bold;
   font-weight: normal;
-  font-size: 50px;
+  font-size: 53px;
 }
 
 .title p {
   font-size: 30px;
   font-weight: bold;
-  margin-top: 25px;
+  margin-top: 35px;
 }
 
 .hr {
@@ -134,6 +134,112 @@ header {
   font-weight: normal;
 }
 
+#services {
+  text-align: center;
+  color: #888;
+  line-height: 20px;
+  padding: 40px 0px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.grid-row {
+  width: 960px;
+}
+
+.grid-row [class*="grid"] {
+  float: left;
+  margin-left: 20px;
+}
+
+.grid-3 {
+  width: 300px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#about {
+  text-align: center;
+  color: #888;
+  line-height: 20px;
+  padding: 0px 0px 40px 0px; 
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.about-row {
+  width: 960px;
+}
+
+.about-row [class*="about"] {
+  float: left;
+  margin-left: 100px;
+}
+
+.about-2 {
+  width: 350px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.contact-container {
+  margin-right: auto;
+  margin-left: auto;
+  color: #888;
+}
+
+.contact-container h1 {
+  text-align: center;
+}
+
+.contact-container p {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+#contact-form {
+  padding-left: 550px;
+  margin-bottom: 70px;
+}
+
+#map {
+  width: 200px;
+}
+
+.input-xxlarge {
+  width: 400px;
+}
+
+footer {
+  background-color: #444;
+}
+
+footer p {
+  color:#eee;
+  text-align: center;
+  margin-bottom: 0px;
+  padding: 70px 0px 70px 0px;
+  font-size: 18px;
+  line-height: 35px;
+}
+
+footer a {
+  color: rgba(236, 112, 112, 0.8);
+}
+
+footer a:hover {
+  color: rgba(236, 112, 112, 1);
+  -webkit-transition: color 0.3s linear;
+  -moz-transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;
+  transition: color 0.3s linear;
+  text-decoration: none;
+}
 
 @font-face {font-family: 'ProximaNova-Bold';src: url('../fonts/ProximaNova_Bold.eot');src: url('../fonts/ProximaNova_Bold.eot?#iefix') format('embedded-opentype'),url('../fonts/ProximaNova_Bold.woff') format('woff'),url('../fonts/ProximaNova_Bold.ttf') format('truetype');}
  

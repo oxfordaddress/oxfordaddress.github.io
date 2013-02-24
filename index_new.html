@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <!-- Metadata -->
     <meta charset="utf-8">
     <title>Oxford Address</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,17 +45,19 @@
 </head>
 
 <body>
-
+    
+    <!-- Header -->
     <header class="">
         <div id="head" class="clearfix">
             <div class="l">
-                <a href="#top" class="ox-ad-logo"></a>
+                <a href="#top" class="ox-ad-logo smoothScroll" style="margin-left:50px"></a>
+                <!--<a href="#top" class="smoothScroll" style="font-family: ProximaNova-Bold;font-size: 16px;line-height:48px;">OXFORD ADDRESS</a>-->
             </div>
             <div class="r">
-                <a href="#services" class="link">Services</a>
-                <a href="#helpfultips" class="link">Helpful Tips</a>
-                <a href="#about" class="link">About</a>
-                <a href="#contact" class="button proxima-bold contact">Contact</a>
+                <a href="#services" class="link smoothScroll">Services</a>
+                <a href="#about" class="link smoothScroll">About</a>
+                <a href="#helpfultips" class="link smoothScroll">Helpful Tips</a>
+                <a href="#contact" class="button proxima-bold contact smoothScroll">Contact</a>
             </div>
         </div>
     </header>
@@ -61,23 +65,121 @@
     <a name="top"></a>
 
     <div class="content-wrap">
+
+        <!-- Title -->
         <div class="title">
             <h1>OXFORD ADDRESS</h1>
             <p>Your one-stop mailing shop.</p>
         </div>
 
-        <div class="hr"></div>
+        <div class="hr" style="margin-top:40px;margin-bottom:0px;"></div>
 
+        <!-- Services -->
         <a name="services"></a>
 
-        <a name="helpfultips"></a>
+        <div id="services" class="wrapped-content">
+            <div class="grid-row clearfix">
+                <div class="grid-3">
+                    <img src="img/services_placeholder.png" alt="Placeholder Image" height="150" width="150">
+                    <h3>Mailings</h3>
+                    First Service Text
+                </div>
+                <div class="grid-3">
+                    <img src="img/services_placeholder.png" alt="Placeholder Image" height="150" width="150">
+                    <h3>Personalised Fulfilment</h3>
+                    Second Service Text
+                </div>
+                <div class="grid-3">
+                    <img src="img/services_placeholder.png" alt="Placeholder Image" height="150" width="150">
+                    <h3>Digital Print</h3>
+                    Third Service Text
+                </div>
+            </div>
+        </div>
 
+        <div class="hr"></div>
+
+        <!-- About -->
         <a name="about"></a>
 
+        <div id="about" class="wrapped-content">
+            <div class="about-row clearfix">
+                <div class="about-2">
+                    <img src="img/person_placeholder.png" alt="Placeholder Image" height="150" width="150">
+                    <h3>Paul</h3>
+                    Text about Paul
+                </div>
+                <div class="about-2">
+                    <img src="img/person_placeholder.png" alt="Placeholder Image" height="150" width="150">
+                    <h3>Ian</h3>
+                    Text about Ian
+                </div>
+            </div>
+        </div>
+
+        <div class="hr"></div>
+
+        <!-- Helpful Tips -->
+        <a name="helpfultips"></a>
+
+        <div class="wrapped-content">
+            <h4 style="text-align:center;color:#888;margin-bottom:20px;">Here are some helpful tips on how to organise your mail for us:</h4>
+            <p style="text-align:center;color:#888;margin-bottom:100px;">First, having data in a sensible format etc etc</p>
+        </div>
+
+        <div class="hr"></div>
+
+        <!-- Contact -->
         <a name="contact"></a>
+
+        <div class="contact-container">
+            <h1>Please get in touch!</h1>
+            <p>Either fill out the form below, send an email to <a href="mailto:paul@oxfordaddress.co.uk">paul@oxfordaddress.co.uk</a>, or call on 01865 438543.</p>
+
+            <form action="contact.php" method="post" id="contact-form" class="wrapped-content">
+                <div class="control-group">
+                    <label class="control-label" for="inputEmail"><i class="icon-user"></i> Full Name</label>
+                    <div class="controls controls-row">
+                        <input type="text" class="input-xxlarge" id="inputEmail" placeholder="Enter your name" name="cf_name">
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="inputEmail"><i class="icon-envelope"></i> Email</label>
+                    <div class="controls">
+                        <input type="text" class="input-xxlarge" id="inputEmail" placeholder="you@domain.com" name="cf_email">
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="inputEmail"><i class="icon-pencil"></i> Message</label>
+                    <div class="controls">
+                        <textarea rows="4" class="input-xxlarge" placeholder="What's your enquiry?" name="cf_message"></textarea>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <div class="controls">
+                        <button type="submit" value="Send" class="btn btn-success">Send Message</button>
+                    </div>
+                </div>
+
+            </form>
+
+            <!--<div id="map" class="well wrapped-content">
+                <iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=wheatley+business+park,+Old+London+Road,+Wheatley&amp;aq=0;sll=51.754665,-1.222572&amp;sspn=0.061314,0.169086&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=Wheatley+Business+Park,&amp;hnear=Old+London+Rd,+Wheatley,+Oxford+OX33+1YW,+United+Kingdom&amp;z=11&amp;iwloc=A&amp;output=embed"></iframe>
+            </div>-->
+
+        </div>
 
     </div>
 
+    <footer>
+        <p>Designed and built with all the love in the world by <a href="mailto:chris@oxfordaddress.co.uk">Chris</a>, resident geek.
+        <br>© 2013 Oxford Address</p>
+    </footer>
+
+    <!-- Scripts -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/smoothscroll.js"></script>

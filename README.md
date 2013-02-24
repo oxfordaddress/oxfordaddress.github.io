@@ -10,3 +10,5 @@ To do:
 
 
 - Contact form?
+
+- Add in footer numbers / emails / fax number
