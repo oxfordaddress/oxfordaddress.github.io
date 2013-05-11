@@ -19,6 +19,11 @@ h2 {
   margin-bottom: 30px;
 }
 
+p {
+  font-size: 18px;
+  line-height: 24px;
+}
+
 #head {
   padding: 10px 0px;
 }
