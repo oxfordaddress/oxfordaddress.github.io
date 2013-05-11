@@ -14,6 +14,10 @@ header {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+h2 {
+  margin-bottom: 30px;
+}
+
 .ox-ad-logo {
   display: inline-block;
   width: 42px;
@@ -134,11 +138,36 @@ header {
   font-weight: normal;
 }
 
-#services {
+#services-content {
   text-align: center;
   color: #888;
   line-height: 20px;
   padding: 40px 0px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+#about-content {
+  text-align: center;
+  color: #888;
+  line-height: 20px;
+  padding: 0px 0px 40px 0px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+#helpful-content {
+  text-align: center;
+  color: #888;
+  line-height: 20px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+#contact-content {
+  text-align: center;
+  color: #888;
+  line-height: 20px;
   font-weight: 500;
   font-size: 14px;
 }
@@ -158,15 +187,6 @@ header {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-}
-
-#about {
-  text-align: center;
-  color: #888;
-  line-height: 20px;
-  padding: 0px 0px 40px 0px;
-  font-weight: 500;
-  font-size: 14px;
 }
 
 .about-row {
@@ -207,6 +227,7 @@ header {
   margin-left: auto;
   width: 414px;
   margin-bottom: 70px;
+  text-align: left;
 }
 
 #map {

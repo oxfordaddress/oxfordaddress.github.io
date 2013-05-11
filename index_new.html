@@ -45,7 +45,7 @@
 </head>
 
 <body>
-    
+
     <!-- Header -->
     <header class="">
         <div id="head" class="clearfix">
@@ -62,7 +62,9 @@
         </div>
     </header>
 
-    <a name="top"></a>
+    <div>
+        <a name="top"></a>
+    </div>
 
     <div class="content-wrap">
 
@@ -75,9 +77,12 @@
         <div class="hr" style="margin-top:40px;margin-bottom:0px;"></div>
 
         <!-- Services -->
-        <a name="services"></a>
+        <div>
+            <a name="services" style="position:relative;top:-72px"></a>
+        </div>
 
-        <div id="services" class="wrapped-content">
+        <div id="services-content" class="wrapped-content">
+            <h2>Services</h2>
             <div class="grid-row clearfix">
                 <div class="grid-3">
                     <img src="img/services_placeholder.png" alt="Placeholder Image" height="150" width="150">
@@ -100,9 +105,12 @@
         <div class="hr"></div>
 
         <!-- About -->
-        <a name="about"></a>
+        <div>
+            <a name="about" style="position:relative;top:-132px"></a>
+        </div>
 
-        <div id="about" class="wrapped-content">
+        <div id="about-content" class="wrapped-content">
+            <h2>About Us</h2>
             <div class="about-row clearfix">
                 <div class="about-2">
                     <img src="img/person_placeholder.png" alt="Placeholder Image" height="150" width="150">
@@ -120,9 +128,12 @@
         <div class="hr"></div>
 
         <!-- Helpful Tips -->
-        <a name="helpfultips"></a>
+        <div>
+            <a name="helpfultips" style="position:relative;top:-132px"></a>
+        </div>
 
-        <div class="wrapped-content">
+        <div id="helpful-content" class="wrapped-content">
+            <h2>Helpful Tips</h2>
             <h4 style="text-align:center;color:#888;margin-bottom:20px;">Here are some helpful tips on how to organise your mail for us:</h4>
             <p style="text-align:center;color:#888;margin-bottom:100px;">First, having data in a sensible format etc etc</p>
         </div>
@@ -130,10 +141,12 @@
         <div class="hr"></div>
 
         <!-- Contact -->
-        <a name="contact"></a>
+       <div>
+            <a name="contact" style="position:relative;top:-132px"></a>
+        </div>
 
-        <div class="contact-container">
-            <h1>Please get in touch!</h1>
+        <div id="contact-content" class="contact-container">
+            <h2>Please get in touch!</h2>
             <p>Either fill out the form below, send an email to <a href="mailto:paul@oxfordaddress.co.uk">paul@oxfordaddress.co.uk</a>, or call on 01865 438543.</p>
 
             <form action="contact.php" method="post" id="contact-form" class="wrapped-content">
@@ -183,5 +196,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/smoothscroll.js"></script>
+    <script type="text/javascript"></script>
+
 </body>
 </html>
