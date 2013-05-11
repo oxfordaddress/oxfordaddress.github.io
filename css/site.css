@@ -164,7 +164,7 @@ header {
   text-align: center;
   color: #888;
   line-height: 20px;
-  padding: 0px 0px 40px 0px; 
+  padding: 0px 0px 40px 0px;
   font-weight: 500;
   font-size: 14px;
 }
@@ -203,7 +203,9 @@ header {
 }
 
 #contact-form {
-  padding-left: 550px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 414px;
   margin-bottom: 70px;
 }
 
@@ -242,9 +244,9 @@ footer a:hover {
 }
 
 @font-face {font-family: 'ProximaNova-Bold';src: url('../fonts/ProximaNova_Bold.eot');src: url('../fonts/ProximaNova_Bold.eot?#iefix') format('embedded-opentype'),url('../fonts/ProximaNova_Bold.woff') format('woff'),url('../fonts/ProximaNova_Bold.ttf') format('truetype');}
- 
+
 @font-face {font-family: 'ProximaNova-Light';src: url('../fonts/ProximaNova_Light.eot');src: url('../fonts/ProximaNova_Light.eot?#iefix') format('embedded-opentype'),url('../fonts/ProximaNova_Light.woff') format('woff'),url('../fonts/ProximaNova_Light.ttf') format('truetype');}
 
 @font-face {font-family: 'ProximaNova-Regular';src: url('../fonts/ProximaNova_Regular.eot');src: url('../fonts/ProximaNova_Regular.eot?#iefix') format('embedded-opentype'),url('../fonts/ProximaNova_Regular.woff') format('woff'),url('../fonts/ProximaNova_Regular.ttf') format('truetype');}
- 
+
 @font-face {font-family: 'ProximaNova-Thin';src: url('../fonts/ProximaNova_Thin.eot');src: url('../fonts/ProximaNova_Thin.eot?#iefix') format('embedded-opentype'),url('../fonts/ProximaNova_Thin.woff') format('woff'),url('../fonts/ProximaNova_Thin.ttf') format('truetype');}
