@@ -19,14 +19,6 @@ h2 {
   margin-bottom: 30px;
 }
 
-.ox-ad-logo {
-  display: inline-block;
-  width: 42px;
-  height: 42px;
-  background: url('../img/ox_ad_logo.png') no-repeat transparent;
-  background-size: 100%;
-}
-
 #head {
   padding: 10px 0px;
 }
@@ -37,7 +29,25 @@ h2 {
 }
 
 #head > .l {
-  margin-top: 4px;
+  line-height: 48px;
+}
+
+#head > .l .link {
+  margin-right: 40px;
+  text-decoration: none;
+  color: #ccc;
+  font-size: 20px;
+  font-family: 'ProximaNova-Bold';
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+#head > .l .link:hover {
+  color: #fff;
+  -webkit-transition:color 0.3s linear;
+  -moz-transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;
+  transition: color 0.3s linear;
 }
 
 #head > .r {
@@ -111,20 +121,20 @@ h2 {
   position: relative;*/
   background: url('../img/bokeh1.jpg');
   opacity: .6;
-  padding: 190px 0 140px 0;
+  padding: 90px 0 40px 0;
   text-align: center;
 }
 
 .title h1 {
   font-family: ProximaNova-Bold;
   font-weight: normal;
-  font-size: 53px;
+  font-size: 45px;
 }
 
 .title p {
-  font-size: 30px;
+  font-size: 23px;
   font-weight: bold;
-  margin-top: 35px;
+  margin-top: 20px;
 }
 
 .hr {
