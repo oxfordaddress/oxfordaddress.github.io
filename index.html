@@ -1,154 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Oxford Address</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Oxford address - Print Solutions">
-    <meta name="author" content="Chris Edson">
-	<meta name="keywords" content="oxford, wheatley, print, printing, paul">
+    <head>
 
-    <!-- Styles -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-	
-	<style>
-	body {
-	  background: none;
-	  padding-bottom: 0;
-	}
-	
-	html, body, #container_all { 
-	  height: 100%;
-	}
-	body > #container_all { 
-	  height: auto; 
-	  min-height: 100%;
-	}
-	
-	.masthead {
-	  padding: 100px 0 70px 0;
-	}
-	
-	.footer {
-	  text-align: center;
-	  padding: 40px 0;
-	  margin-top: 100px;
-      border-top: 1px solid #ddd;
-	  background-color: #f5f5f5;
-	  clear: both;
-	  position: relative;
-	  z-index:10;
-	  height: 3em;
-	  margin-top: -9em;
-	}
-	
-	#content {
-	  padding-bottom: 3em;
-	}
-	
-	.footer p {
-	  margin-bottom: 0;
-	  color: #777;
-	}
-	
-	.footer-links {
-	  margin: 10px 0;
-	}
-	
-	.footer-links li {
-	  display: inline;
-	  padding: 0 2px;
-	}
-	.footer-links li:first-child {
-	  padding-left: 0;
-	}
-	</style>
+        <!-- Metadata -->
+        <meta charset="utf-8">
+        <title>Oxford Address</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Oxford Address - Print Solutions">
+        <meta name="author" content="Chris Edson">
+    	<meta name="keywords" content="oxford, wheatley, print, printing, paul">
 
-    <!-- HTML5 shiv, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-    <![endif]-->
+        <!-- Styles -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/site.css" rel="stylesheet">
 
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="ico/favicon.ico">
+        <!-- HTML5 shiv, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->
 
-<!-- Google Analytics Code
-================================================== -->
-<script type="text/javascript">
+        <!-- Favicon-->
+        <link rel="shortcut icon" href="ico/favicon.ico">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-38532542-1']);
-  _gaq.push(['_trackPageview']);
+        <!-- Scripts -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/smoothscroll.js"></script>
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+        <!-- Google Analytics Code -->
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-38532542-1']);
+        _gaq.push(['_trackPageview']);
 
-</script>
-</head>
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        </script>
 
-<body data-spy="scroll" data-target=".bs-docs-sidebar">
+    </head>
 
-<div id="container_all">
-<div id="content">
+    <body>
 
-<!-- Navbar
-================================================== -->
-<div class="navbar navbar-inverse navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container">
-	  <a class="brand" href="#">Development in Progress</a>
-    </div>
-  </div>
-</div>
-  
-<!-- Heading
-================================================== -->
-<div class="jumbotron masthead">
-  <div class="container">
-    <h1>Oxford Address</h1>
-    <p>Site development in progress, please come back in a week or so. Alternatively, email Paul at <a href="mailto:paul@oxfordaddress.co.uk">paul@oxfordaddress.co.uk</a> with any enquiries!</p>
-  </div>
-</div>
+        <!-- Header -->
+        <header class="">
+            <div id="head" class="clearfix">
+                <div class="l">
+                    <a href="#top" class="link smoothScroll">Oxford Address - Print Solutions</a>
+                </div>
+                <div class="r">
+                    <a href="#services" class="link smoothScroll">Services</a>
+                    <a href="#about" class="link smoothScroll">About</a>
+                    <a href="#helpfultips" class="link smoothScroll">Helpful Tips</a>
+                    <a href="#contact" class="button contact smoothScroll">Contact</a>
+                </div>
+            </div>
+        </header>
 
-<!-- Email Button
-================================================== -->
-<div class="bs-docs-social">
-  <div class="container">
-    <ul class="bs-docs-social-buttons">
-	  <li>
-		<a href="mailto:paul@oxfordaddress.co.uk" class="btn"><i class="icon-envelope"></i> Email Paul!</a>
-	  </li>
-    </ul>
-  </div>
-</div>
+        <div>
+            <a name="top"></a>
+        </div>
 
-</div>
+        <div class="content-wrap">
 
-</div>
+            <!-- Title -->
+            <div class="title">
+                <img src="img/ox_ad_logo.png" alt="Oxford Address Logo" width="300">
+                <h1>OXFORD ADDRESS</h1>
+                <p>Your one-stop mailing shop.</p>
+            </div>
 
-<!-- Footer
-================================================== -->
-<footer class="footer">
-  <div class="container">
-	<p>Designed and built with all the love in the world by <a href="mailto:chris@oxfordaddress.co.uk">Chris</a>, resident geek.</p>
-	<p>&copy; 2013 Oxford Address</p>
-  </div>
-</footer>
+            <div class="hr"></div>
 
-<!-- Javascript
-================================================== -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/smoothscroll.js"></script>
+            <!-- Services -->
+            <div>
+                <a name="services" style="position:relative;top:-150px"></a>
+            </div>
 
-</body>
+            <div class="wrapped-content content">
+                <h2>Services</h2>
+                <div class="grid-row clearfix">
+                    <div class="grid-3">
+                        <img src="img/services_placeholder.png" alt="Placeholder Image" height="150" width="150">
+                        <h3>Mailings</h3>
+                        <p><em>Film wrap or envelope. One off or regular.</em><br><br>
+                        Our contracts with Royal Mail and overseas consolidators mean that we can always provide the best postage costs, in addition to a cost effective fulfilment service</p>
+                    </div>
+                    <div class="grid-3">
+                        <img src="img/services_placeholder.png" alt="Placeholder Image" height="150" width="150">
+                        <h3>Personalised Fulfilment</h3>
+                        <p><em>Personalised letters and forms - more if you ask nicely.</em><br><br>
+                        Including variable text in addition to name & address data, matched to addressed envelopes – not window envelopes or labels</p>
+                    </div>
+                    <div class="grid-3">
+                        <img src="img/services_placeholder.png" alt="Placeholder Image" height="150" width="150">
+                        <h3>Digital Print</h3>
+                        <p><em>Short run flyers, leaflets and newsletters.</em><br><br>
+                        Black or 4 colour, from your own artwork, or we can design for you</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hr"></div>
+
+            <!-- About -->
+            <div>
+                <a name="about" style="position:relative;top:-150px"></a>
+            </div>
+
+            <div class="wrapped-content content">
+                <h2>About Us</h2>
+                <div class="about-row clearfix">
+                    <div class="about-2">
+                        <img src="img/paul.jpg" class="img-polaroid" alt="Placeholder Image" width="160">
+                        <h3>Paul</h3>
+                        <p>Paul has 40 years experience in marketing and 25 years experience in print and direct mail.<br><br>
+                        His 'going the extra mile' approach is relished with Oxford Address's client base. With his extensive experience, Paul also offers advice on campaign strategy alongside the design of the mailing.</p>
+                    </div>
+                    <div class="about-2">
+                        <img src="img/ian.jpg" class="img-polaroid" alt="Placeholder Image" width="160">
+                        <h3>Ian</h3>
+                        <p>Ian has 15 years experience in direct mail, from data prep and formatting to running mail fulfilment as effectively and practically as possible.<br><br>
+                        Ian will handle nigh on anything that's thrown at him, so no matter what the job, it's worth asking - he'll probably be able to sort it.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hr"></div>
+
+            <!-- Helpful Tips -->
+            <div>
+                <a name="helpfultips" style="position:relative;top:-150px"></a>
+            </div>
+
+            <div class="wrapped-content content">
+                <h2>Helpful Tips</h2>
+                <p style="margin-bottom:25px;">Here are some helpful tips on how to organise your mail for us:</p>
+                <a href="#mailings" role="button" class="btn btn-large" data-toggle="modal">Mailings</a>
+                <a href="#data" role="button" class="btn btn-large" data-toggle="modal">Data</a>
+                <a href="#postage" role="button" class="btn btn-large" data-toggle="modal">Postage</a>
+            </div>
+
+            <div class="hr"></div>
+
+            <!-- Contact -->
+           <div>
+                <a name="contact" style="position:relative;top:-150px"></a>
+            </div>
+
+            <div class="wrapped-content content">
+                <h2>Please get in touch!</h2>
+                <p>Either fill out the form below, send an email to <a href="mailto:paul@oxfordaddress.co.uk">paul@oxfordaddress.co.uk</a> or call on 01865 438543.</p>
+
+                <form action="contact.php" method="post" id="contact-form">
+                    <div class="control-group">
+                        <label class="control-label" for="inputEmail"><i class="icon-user"></i> Full Name</label>
+                        <div class="controls controls-row">
+                            <input type="text" class="input-xxlarge" id="inputEmail" placeholder="Enter your name" name="cf_name">
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="inputEmail"><i class="icon-envelope"></i> Email</label>
+                        <div class="controls">
+                            <input type="text" class="input-xxlarge" id="inputEmail" placeholder="you@domain.com" name="cf_email">
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="inputEmail"><i class="icon-pencil"></i> Message</label>
+                        <div class="controls">
+                            <textarea rows="4" class="input-xxlarge" placeholder="What's your enquiry?" name="cf_message"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <div class="controls">
+                            <button type="submit" value="Send" class="btn">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+
+                <div id="map" class="well">
+                    <iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.map-generator.org/b93485c7-d7dd-4223-8da8-6f38e135c5c8/iframe-map.aspx"></iframe>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Modal Content -->
+
+        <div id="mailings" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="myModalLabel">Mailings</h3>
+            </div>
+            <div class="modal-body">
+                <h4>Return Addresses</h4>
+                <p>Your database is a valuable resource. Add your return address to the envelope or carrier sheet; mail returned to you is a good way of cleaning and updating your database.</p>
+
+                <h4>Envelope Sizes</h4>
+                <p>Spend some time thinking about envelope sizes. A non-standard size booklet may look good and stand out, but the custom sized envelope need for it can be up to 10 times the price of a standard. Film wrap for non-standard sizes is, however, not a problem.</p>
+
+                <h4>Inserts</h4>
+                <p>If the mailing piece is A5, consider whether you really need A4 inserts? An A5 insert is actually on 30% smaller than an A4 one, yet saves weight and cost.</p>
+
+                <h4>Drawing Recipient's Attention</h4>
+                <p>Think about adding an advert panel to the front of the carrier sheet for film wrap jobs, to draw the recipient’s attention to something important in the contents.</p>
+
+                <h4>Updating Details</h4>
+                <p>Use the back of the carrier to get the recipients to update their details.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            </div>
+        </div>
+
+        <div id="data" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="myModalLabel">Data</h3>
+            </div>
+            <div class="modal-body">
+                <h4>Non-Printing Characters</h4>
+                <p>Ensure that there are no non-printing characters in your data (such as inverted commas or hard carriage returns); these can play havoc with mailmerging!</p>
+
+                <h4>Address Formatting</h4>
+                <p>Ensure that the post town, the postcode and the country are in separate and constant fields (columns in the spread sheet). This way we can sort properly to ensure the best postage discounts. If possible, it's always helpful to have the Post Town in upper case, as this is the Royal Mail preferred format.</p>
+
+                <h4>Titles</h4>
+                <p>Check your title and salutation fields if a letter is to be personalised, as some titles (e.g. 'Sir') go with the first name, not the surname.</p>
+
+                <h4>Leading Zeros</h4>
+                <p>Postal and zip codes in some countries (e.g. USA) begin with a zero, which Excel drops off, thinking the field contents are a number. It is always best to format that field as either a text field, or a US Zip code (found in ‘Special’ formats).</p>
+
+                <h4>UK Destinations</h4>
+                <p>The Channel islands and BFPO address are UK, not foreign, destinations. You do not need England, Northern Ireland, Scotland or Wales in the address for UK mail.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            </div>
+        </div>
+
+        <div id="postage" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="myModalLabel">Postage</h3>
+            </div>
+            <div class="modal-body">
+                <h4>Postage Tariffs</h4>
+                <p>The postage is usually the most expensive part of any mailing, so it is important that we use the most appropriate tariff.
+                <br><br>
+                The cheapest format is a letter (i.e. an item C5 or smaller), maximum weight 100 grammes and maximum thickness 5 mm. Whilst we can get small discounts on mailings in excess of 1,000, the real savings only begin with volumes in excess of 4,000. If you have 2 smaller mailings, can they be combined to generate 4,000 items?
+                <br><br>
+                The next format is a ‘large letter’ (i.e. C4 or smaller), any ‘letter’ or ‘large letter’ over 100 grammes, and a maximum of 25 mm thick. Any volume over 1,000 items will generate good postal discounts</p>
+                <h4>Weight and Thickness</h4>
+                <p>Always think about weight and thickness. Would reducing the paper weight get the final weight below 100 grammes? Would using a lighter weight cover on a C5 booklet mean it does not gape at the spine and so is less than 5 mm thick?</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>Designed and built by <a href="mailto:chris@oxfordaddress.co.uk">Chris</a>, resident geek.
+            <br>© 2013 Oxford Address</p>
+        </footer>
+
+    </body>
 </html>
