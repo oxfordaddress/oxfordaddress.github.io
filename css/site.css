@@ -1,3 +1,5 @@
+/* Base Stylings */
+
 body {
   font-family: 'ProximaNova-Regular';
   font-weight: normal;
@@ -30,6 +32,8 @@ p {
   font-size: 18px;
   line-height: 24px;
 }
+
+/* Header Stylings */
 
 #head {
   padding: 10px 0;
@@ -130,6 +134,8 @@ p {
   border-radius: 15px;
 }
 
+/* Title Stylings */
+
 .title {
   background: url('../img/bokeh1.jpg');
   opacity: .6;
@@ -143,6 +149,8 @@ p {
   font-weight: bold;
   margin-top: 20px;
 }
+
+/* Content Stylings */
 
 .hr {
   background: url('../img/divider_hr.jpg') no-repeat transparent 50% 50%;
@@ -191,6 +199,14 @@ p {
   -webkit-box-sizing: border-box;
 }
 
+.img-polaroid {
+  -moz-box-shadow: 0 5px 15px -3px rgb(78,78,78);
+  -webkit-box-shadow: 0 5px 15px -3px rgb(78,78,78);
+  box-shadow: 0 5px 15px -3px rgb(78,78,78);
+  margin-bottom: 10px;
+}
+
+
 #contact-form {
   margin-bottom: 70px;
   margin-top: 40px;
@@ -200,22 +216,40 @@ p {
   margin-right: 25px
 }
 
+.input-xxlarge {
+  width: 400px;
+}
+
 #map {
   width: 392px;
   display: inline-block;
   padding: 10px;
 }
 
-.input-xxlarge {
-  width: 400px;
+/* Modal Stylings */
+
+.btn-large {
+  margin: 0 15px;
 }
 
-.img-polaroid {
-  -moz-box-shadow: 0 5px 15px -3px rgb(78,78,78);
-  -webkit-box-shadow: 0 5px 15px -3px rgb(78,78,78);
-  box-shadow: 0 5px 15px -3px rgb(78,78,78);
-  margin-bottom: 10px;
+.modal {
+  color: #595959;
 }
+
+.modal-header {
+  padding: 15px 15px;
+}
+
+.modal-body {
+  padding-top: 10px;
+}
+
+.modal-body p{
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Footer Stylings */
 
 footer {
   background-color: #444;
@@ -231,10 +265,12 @@ footer p {
 }
 
 footer a {
+  color: rgb(236, 112, 112);
   color: rgba(236, 112, 112, 0.8);
 }
 
 footer a:hover {
+  color: rgb(236, 112, 112);
   color: rgba(236, 112, 112, 1);
   -webkit-transition: color 0.3s linear;
   -moz-transition: color 0.3s linear;
@@ -242,6 +278,8 @@ footer a:hover {
   transition: color 0.3s linear;
   text-decoration: none;
 }
+
+/* Fonts */
 
 @font-face {font-family: 'ProximaNova-Bold';src: url('../fonts/ProximaNova_Bold.eot');src: url('../fonts/ProximaNova_Bold.eot?#iefix') format('embedded-opentype'),url('../fonts/ProximaNova_Bold.woff') format('woff'),url('../fonts/ProximaNova_Bold.ttf') format('truetype');}
 
