@@ -182,6 +182,10 @@ p {
   -webkit-box-sizing: border-box;
 }
 
+.grid-3 img {
+  padding: 13px;
+}
+
 .about-row {
   width: 960px;
 }
