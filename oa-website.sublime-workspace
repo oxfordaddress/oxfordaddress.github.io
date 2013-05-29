@@ -1,0 +1,640 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"p",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"align",
+				"vertical-align"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"location",
+				"location_country  (variable)"
+			],
+			[
+				"backgroun",
+				"background-size"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"r",
+				"r"
+			],
+			[
+				"artist",
+				"artistid"
+			],
+			[
+				"get",
+				"getLastFM"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"artist_link",
+				"artist_link_inactive"
+			],
+			[
+				"backgr",
+				"background-repeat"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"10px",
+				"10px"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"margn",
+				"margin-left"
+			],
+			[
+				"mari",
+				"margin-bottom"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"about",
+				"about-us-image"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"head",
+				"head"
+			],
+			[
+				"base",
+				"base_title"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"selected_items":
+		[
+			[
+				"sav",
+				"Project: Save As"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"gits",
+				"Git: Status"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Chris/Dropbox/Documents/OA Website/public_html/css/site.css",
+		"/Users/Chris/Dropbox/Documents/OA Website/public_html/index.html",
+		"/Users/Chris/Dropbox/Documents/OA Website/public_html/css/bootstrap.css",
+		"/Users/Chris/Dropbox/Documents/OA Website/public_html/index_new.html",
+		"/Users/Chris/Dropbox/Documents/OA Website/public_html/css/custom.css",
+		"/Users/Chris/Dropbox/Documents/OA Website/public_html/js/smoothscroll.js",
+		"/Users/Chris/Dropbox/Documents/OA Website/public_html/.gitignore",
+		"/Users/Chris/Dropbox/Documents/mysite/templates/base.html",
+		"/Users/Chris/Dropbox/Documents/mysite/mysite/urls.py",
+		"/Users/Chris/Dropbox/Documents/mysite/mysite/settings.py",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/js/main.js",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/css/boom.css",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/css/main.css",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/ui.html",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/js/search.js",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/index.html",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/landing-splash.html",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/css/introjs-ie.min.css",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/css/search.css",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/gig.html",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/gigviewport.html",
+		"/Users/Chris/Dropbox/aesop-rock/urls.py",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/test.html",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/landing_beta_reg.html",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/views.py",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/artist.html",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/featured.html",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/landing.html",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/css/landing.css",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/old_landing.html",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/css/shame.css",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/landing_splash.html",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/landing_splash",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/artistviewport.html",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/models.py",
+		"/Users/Chris/Dropbox/aesop-rock/scripts/giglistapp_artists.py",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/update-artist.html",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/migrations/0012_auto__add_field_artist_image.py",
+		"/Users/Chris/Dropbox/aesop-rock/test.py",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/update.html",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/update_artist.html",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/landing_normal.html",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/js/soundcloudupdater.js",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/search.html",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/js/soundcloudupdater",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/css/about-us.css",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/about-us.html",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/css/webfontskit.css",
+		"/Users/Chris/Dropbox/giglist/giglist-hw/app_name/templates/base.html",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/player.html",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/migrations/0009_auto__del_field_gig_gig_date__add_field_gig_date.py",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/migrations/0008_auto__chg_field_gig_date.py",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/migrations/0007_auto.py",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/tests.py",
+		"/Users/Chris/Dropbox/aesop-rock/giglist.sublime-workspace",
+		"/Users/Chris/Dropbox/aesop-rock/static/css/main.css",
+		"/Users/Chris/Dropbox/aesop-rock/static/js/main.js",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/css/bootstrap.min.css",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/css/bootstrap.css",
+		"/Users/Chris/Dropbox/aesop-rock/static/css/about-us2.css",
+		"/Users/Chris/Dropbox/aesop-rock/settings.py",
+		"/Users/Chris/Dropbox/aesop-rock/requirements.txt",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/js/jquery.history.js",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/js/scroll.js",
+		"/Users/Chris/Dropbox/aesop-rock/giglist.sublime-project",
+		"/Users/Chris/Dropbox/aesop-rock/aws environ settings",
+		"/Users/Chris/Dropbox/aesop-rock/static/img/header.png",
+		"/Users/Chris/Dropbox/aesop-rock/.gitignore",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/css/about-us2.css",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/test.html",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/test.txt",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/migrations/0002_auto__del_field_stage_search_index__del_field_setlist_search_index__de.py",
+		"/Users/Chris/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/Chris/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/__init__.py",
+		"/Users/Chris/Dropbox/aesop-rock/manage.py",
+		"/Users/Chris/Dropbox/aesop-rock/__init__.py",
+		"/Users/Chris/Dropbox/aesop-rock/wsgi.py",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/img/loading.gif",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/js/intro.js",
+		"/Users/Chris/Dropbox/aesop-rock/static/css/about-us.css",
+		"/Users/Chris/Library/Application Support/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/Chris/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/apple-touch-icon-114x114-precomposed.png",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/css/introjs.css",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/static/css/introjs.min.css",
+		"/Users/Chris/Dropbox/aesop-rock/giglistapp/templates/artist-test.html",
+		"/Users/Chris/Dropbox/aesop-rock/templates/500.html",
+		"/Users/Chris/Dropbox/aesop-rock/templates/404.html",
+		"/Users/Chris/Dropbox/aesop-rock/README.md",
+		"/Users/Chris/Dropbox/aesop-rock/static/css/boom.css",
+		"/Users/Chris/Desktop/libpebble/README.md",
+		"/Users/Chris/Dropbox/Documents/Website/public_html/index_new.html",
+		"/Users/Chris/Dropbox/Documents/Website/public_html/css/custom.css",
+		"/Users/Chris/Dropbox/Documents/Website/public_html/css/site.css",
+		"/Users/Chris/Dropbox/Documents/Website/public_html/Notes.md",
+		"/Users/Chris/Dropbox/Documents/Website/public_html/README.md",
+		"/Users/Chris/Dropbox/Documents/Website/public_html/contact.php",
+		"/Users/Chris/Dropbox/Documents/Website/public_html/js/smoothscroll.js",
+		"/Users/Chris/Dropbox/Documents/Website/public_html/img/placeholder.png",
+		"/Users/Chris/Dropbox/Documents/Website/public_html/img/ox_ad_logo.png",
+		"/Users/Chris/Dropbox/Documents/Website/public_html/index.html",
+		"/Users/Chris/Dropbox/Documents/Website/public_html/Dev in Progress/css/custom_new.css",
+		"/Users/Chris/Dropbox/Documents/Ruby/rails_projects/sample_app/Gemfile",
+		"/Users/Chris/Dropbox/Documents/Ruby/rails_projects/sample_app/db/migrate/20130222132125_create_users.rb",
+		"/Users/Chris/Dropbox/Documents/Ruby/rails_projects/sample_app/app/models/user.rb",
+		"/Users/Chris/Dropbox/Documents/Ruby/rails_projects/sample_app/spec/models/user_spec.rb",
+		"/Users/Chris/Dropbox/Documents/Ruby/rails_projects/sample_app/db/schema.rb",
+		"/Users/Chris/Dropbox/Documents/Ruby/rails_projects/sample_app/app/helpers/application_helper.rb",
+		"/Users/Chris/Dropbox/Documents/Ruby/rails_projects/sample_app/app/views/layouts/application.html.erb",
+		"/Users/Chris/Dropbox/Documents/Ruby/rails_projects/sample_app/spec/requests/static_pages_spec.rb",
+		"/Users/Chris/Dropbox/Documents/Ruby/rails_projects/sample_app/app/views/static_pages/home.html.erb",
+		"/Users/Chris/Dropbox/Documents/Ruby/rails_projects/sample_app/example_user.rb",
+		"/Users/Chris/Dropbox/Documents/Ruby/rails_projects/sample_app/spec/spec_helper.rb",
+		"/Users/Chris/Downloads/DSBarChart-master/README.md",
+		"/Users/Chris/Dropbox/Documents/CVs & Cover Letters/Org Application/10 -What do you see as your key development needs (min",
+		"/Users/Chris/Dropbox/Documents/CVs & Cover Letters/Org Application/9 - What do you see as your key strengths (maximum o",
+		"/Users/Chris/Dropbox/Documents/CVs & Cover Letters/Org Application/8 - Please outline your interests outside of work an",
+		"/Users/Chris/Dropbox/Documents/CVs & Cover Letters/Org Application/7 - Please provide a pen portrait of yourself and your personal history",
+		"/Users/Chris/Dropbox/Documents/CVs & Cover Letters/Org Application/6 - Give an example of a time when you had to respon",
+		"/Users/Chris/Dropbox/Documents/CVs & Cover Letters/Org Application/5 - What's the most successful relationship (with an",
+		"/Users/Chris/Dropbox/Documents/CVs & Cover Letters/Org Application/4 - Give an example of a work team you are (or were)",
+		"/Users/Chris/Dropbox/Documents/CVs & Cover Letters/Org Application/3 - Provide an example of a complex task  project you have worked on recently",
+		"/Users/Chris/Dropbox/Documents/CVs & Cover Letters/Org Application/1 - What attracts you to a career in intelligence an",
+		"/Users/Chris/Dropbox/Documents/CVs & Cover Letters/Org Application/2 - What do you see as the major intelligence prioriti",
+		"/Users/Chris/Dropbox/Documents/CVs & Cover Letters/Org Application/Positions of responsibility:",
+		"/Users/Chris/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/Chris/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/Chris/Dropbox/aesop-rock",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"custom",
+			", and",
+			">\n",
+			"-132",
+			"content",
+			"button",
+			" 0px",
+			"0px",
+			"head",
+			"content",
+			"services",
+			"#",
+			"smooth",
+			"offset",
+			"django",
+			"tutorial",
+			"search",
+			"this",
+			"jquery_j",
+			"jquery",
+			"viewport",
+			"navb",
+			"navbar",
+			"NAVBAR",
+			"navbar",
+			"navb",
+			"splash",
+			"landing",
+			"span12",
+			"render",
+			"home",
+			"splash",
+			"index",
+			"nine inch",
+			"splash",
+			"shame",
+			"track",
+			"cachetrackids",
+			"preLoadApiCache",
+			"gig_page",
+			"eventsfor_artist_page",
+			"csrf",
+			"request",
+			"modelform",
+			"request.",
+			"artistid",
+			"        <",
+			"shadow",
+			"send-",
+			"h1",
+			".brand",
+			"tracks",
+			"image",
+			"results",
+			"artist",
+			"results",
+			"result",
+			"bio",
+			"unicode",
+			"print",
+			"date",
+			"alter",
+			"date",
+			"ALTER TABLE \"giglistapp_gig\"",
+			"fatal error",
+			"ALTER TABLE \"giglistapp_gig\" ALTER COLUMN",
+			"ALTER TABLE \"giglistapp_gig\" ALTER COLUMN \"date\" TYPE timestamp with time zone, ALTER COLUMN \"date\" DROP NOT NULL, ALTER COLUMN \"date\" DROP DEFAULT;",
+			"date",
+			"api_id",
+			"loadGigs",
+			"search",
+			"_",
+			"artist-link_inactive",
+			"artist-link",
+			"artist_link",
+			"festival_list",
+			"main_search",
+			"main_header",
+			"big_land",
+			"java",
+			"festival_list",
+			"artist_l",
+			"artist-li",
+			"giglist",
+			"href='javascript:;' ",
+			"artist_on",
+			"giglist",
+			"top_bar",
+			"gig_link",
+			"gig_list",
+			"_",
+			"main_head",
+			"land",
+			";\n",
+			"border",
+			"input-mysize",
+			"landing",
+			"h1",
+			"<h1>",
+			"h1",
+			"h1, h2",
+			"h1,h2",
+			"gill",
+			"land",
+			"landin",
+			"')\n",
+			"datet",
+			"dateti",
+			"get(",
+			"    \n    api_id\n    artists\n    times\n    featured \n    description\n    search_index",
+			"    source\n    api_id\n    artists\n    times\n    featured \n    description\n    search_index",
+			"str(",
+			"soundcloudus",
+			"if request",
+			"avat",
+			"sound",
+			"soundc",
+			"try to",
+			"feedparse",
+			"title",
+			"url",
+			"eventsfor_artist_page",
+			"artist",
+			"getr",
+			"getb",
+			"if",
+			"landing",
+			"load("
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"-150",
+			" 0",
+			"",
+			"landing",
+			"artist-link-inactive",
+			"artist-link",
+			"festival-list",
+			"main-search",
+			"main-header",
+			"big-land ",
+			"",
+			"top-bar",
+			"gig-link",
+			"gig-list",
+			"main-head",
+			"    print ",
+			"margin-left:20px",
+			"RockwellMT-Bold",
+			"front_page_photo",
+			"../static/",
+			"\"[^\"]*\"\n    <head>\n'[^\"]*'",
+			"class=\"about-us-text\"",
+			"",
+			"Giglist",
+			"0.3s",
+			"../fonts/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"sub",
+				"giglist.sublime-project"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"about",
+				"static/css/about-us.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true
+}
