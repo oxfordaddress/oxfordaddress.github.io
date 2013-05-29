@@ -100,8 +100,8 @@ p {
 
 .contact {
   text-align: center;
-  background-color: rgb(236, 112, 112);
-  background-color: rgba(236, 112, 112, 0.34);
+  background-color: rgb(218, 81, 93);
+  background-color: rgba(218, 81, 93, 0.34);
   color: #fff;
   padding: 8px 15px 6px 12px;
   width: 54px;
@@ -120,8 +120,8 @@ p {
 .contact:hover {
   text-decoration: none;
   color: #fff;
-  background-color: rgb(236, 112, 112);
-  background-color: rgba(236, 112, 112, 0.5);
+  background-color: rgb(218, 81, 93);
+  background-color: rgba(218, 81, 93, 0.6);
   -webkit-transition: background-color 0.3s linear;
   -moz-transition: background-color 0.3s linear;
   -o-transition: background-color 0.3s linear;
@@ -137,17 +137,21 @@ p {
 /* Title Stylings */
 
 .title {
-  background: url('../img/bokeh1.jpg');
-  opacity: .6;
-  padding: 90px 0 40px 0;
+  background: url('../img/header_bg.jpg');
+  padding: 90px 0 10px 0;
   text-align: center;
   margin-bottom: 40px;
 }
 
-.title p {
-  font-size: 23px;
-  font-weight: bold;
-  margin-top: 20px;
+.title img {
+  margin-top: -60px;
+  margin-bottom: -65px;
+  width: 700px;
+}
+
+.title h2 {
+  margin-top: 10px;
+  color: #7f7f7f;
 }
 
 /* Content Stylings */
@@ -269,13 +273,13 @@ footer p {
 }
 
 footer a {
-  color: rgb(236, 112, 112);
-  color: rgba(236, 112, 112, 0.8);
+  color: rgb(218, 81, 93);
+  color: rgba(218, 81, 93, 0.8);
 }
 
 footer a:hover {
-  color: rgb(236, 112, 112);
-  color: rgba(236, 112, 112, 1);
+  color: rgb(218, 81, 93);
+  color: rgba(218, 81, 93, 1);
   -webkit-transition: color 0.3s linear;
   -moz-transition: color 0.3s linear;
   -o-transition: color 0.3s linear;
